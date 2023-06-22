@@ -35,10 +35,6 @@ class StatefulGreeting extends React.Component {
   
     incrementFive(){
         this.increment()
-        this.increment()
-        this.increment()
-        this.increment()
-        this.increment()
     }
 
 
