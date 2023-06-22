@@ -4,6 +4,10 @@ import FunctionalGreetingWithProps from './components/FunctionalGreetingWithProp
 import StatefulGreeting from './components/StatefulGreeting';
 import EventsFunctional from './components/EventsFunctional';
 import EventsClass from './components/EventsClass';
+import ConditionalRenderingClass from "./components/ConditionalRenderingClass";
+import ConditionalRenderingFunctional from "./components/ConditionalRenderingFunctional";
+import EventBinding from './components/EventBinding';
+
 
 function App() {
   return (
@@ -12,6 +16,8 @@ function App() {
       <FunctionalGreetingWithProps greeting="nice to meet you!" name="Naifat" age="23" />
       <EventsFunctional />
       <EventsClass />
+      <ConditionalRenderingClass />
+      <ConditionalRenderingFunctional connected={true} />
     </div>
   );
 }
