@@ -9,6 +9,7 @@ import ConditionalRenderingFunctional from "./components/ConditionalRenderingFun
 import EventBinding from './components/EventBinding';
 import NestingComponents from './components/NestingComponents';
 import RenderingLists from './components/RenderingLists';
+import Clock from './components/Clock';
 
 
 
@@ -23,6 +24,7 @@ function App() {
       <ConditionalRenderingFunctional connected={true} />
       < NestingComponents />
       < RenderingLists />
+      < Clock />
     </div>
   );
 }

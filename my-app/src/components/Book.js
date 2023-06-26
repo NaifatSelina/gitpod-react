@@ -1,6 +1,6 @@
 import React from 'react'
 
-function book(props) {
+function Book(props) {
     const book = props.book
   return (
     <div>
@@ -11,4 +11,4 @@ function book(props) {
   )
 }
 
-export default book
+export default Book
