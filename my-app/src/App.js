@@ -10,6 +10,7 @@ import EventBinding from './components/EventBinding';
 import NestingComponents from './components/NestingComponents';
 import RenderingLists from './components/RenderingLists';
 import Clock from './components/Clock';
+import LifeCyclesCDU from './components/LifeCyclesCDU';
 
 
 
@@ -25,6 +26,7 @@ function App() {
       < NestingComponents />
       < RenderingLists />
       < Clock />
+      < LifeCyclesCDU />
     </div>
   );
 }
