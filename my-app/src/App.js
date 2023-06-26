@@ -7,6 +7,8 @@ import EventsClass from './components/EventsClass';
 import ConditionalRenderingClass from "./components/ConditionalRenderingClass";
 import ConditionalRenderingFunctional from "./components/ConditionalRenderingFunctional";
 import EventBinding from './components/EventBinding';
+import NestingComponents from './components/NestingComponents';
+
 
 
 function App() {
@@ -18,6 +20,7 @@ function App() {
       <EventsClass />
       <ConditionalRenderingClass />
       <ConditionalRenderingFunctional connected={true} />
+      < NestingComponents />
     </div>
   );
 }
