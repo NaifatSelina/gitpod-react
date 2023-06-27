@@ -11,6 +11,9 @@ import NestingComponents from './components/NestingComponents';
 import RenderingLists from './components/RenderingLists';
 import Clock from './components/Clock';
 import LifeCyclesCDU from './components/LifeCyclesCDU';
+import LifeCyclesCWU from './components/LifeCyclesCWU';
+import ControlledForm from './components/ControlledForm';
+import UncontrolledForm from './components/UncontrolledForm';
 
 
 
@@ -27,6 +30,9 @@ function App() {
       < RenderingLists />
       < Clock />
       < LifeCyclesCDU />
+      < LifeCyclesCWU />
+      < ControlledForm />
+      < UncontrolledForm />
     </div>
   );
 }
